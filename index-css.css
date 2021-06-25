@@ -1,0 +1,148 @@
+body {
+    background-color: #1b1b1b;
+  }
+  
+.Middle 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top20 
+{
+position: relative;
+    top: 20%;
+
+}
+.txtimg{
+    display: inline-block;
+    text-align: center;
+}
+.txtimg > img{
+    display: block;
+}
+
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 900vw;
+  }
+  .one {
+    background: #1b1b1b;
+  }
+  .two {
+   background-color: #1b1b1b;
+  }
+  .three {
+    background-color: #1b1b1b;
+  }
+  .four {
+    background-color: #1b1b1b;
+    background-image: url("/imgs/IMG_1320.png");
+    background-size: cover;
+  }
+.five {
+  background-color: #1b1b1b;
+  background-image: url("/imgs/raycaster\ Engine.png");
+  background-size: cover;
+}
+.Six {
+  background-color: #1b1b1b;
+}
+
+.Seven 
+{
+  background-color: #1b1b1b;
+}
+.eight 
+{
+  background-color: #1b1b1b;
+}
+.nine 
+{
+  background-color: #1b1b1b;
+}
+
+
+  .relativePosition
+  {
+    position: relative;
+
+  }
+
+
+
+  .wrapper {
+      transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+    }
+    .outer-wrapper {
+      width: 100vh;
+      height: 100vw;
+      transform: rotate(-90deg) translateX(-100vh);
+      transform-origin: top left;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+      scroll-snap-type: y mandatory;
+    }
+
+    .outer-wrapper {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        ::-webkit-scrollbar {
+          display:none;
+        }
+
+
+        .Image-Small
+        {
+            width: 500px;
+            height: 500px;
+        }
+        h6 
+        {
+            font-size: 40px;
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-family: 'Tomorrow', sans-serif;
+        }
+        p 
+        {
+            color: white;
+            font-family: 'Tomorrow', sans-serif;
+        }
+
+        .LIST
+        {
+            color: white;
+            font-family: 'Tomorrow', sans-serif;
+        }
+
+
+        .ContactInfoGrid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          width: 40vw;
+          height: 10px;
+          left: 20vw;
+          position: relative;
+          top: 30vh;
+          }
+          
+          .CINFO1 { grid-area: 1 / 1 / 2 / 2; width: 20vw;}
+          .CINFO2 { grid-area: 1 / 2 / 2 / 3; width: 20vw;}
+          .CINFO3 { grid-area: 1 / 3 / 2 / 4; width: 20vw;}
+
